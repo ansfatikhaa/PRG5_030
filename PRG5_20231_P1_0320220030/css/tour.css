@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*Base*/
+
+.all-tour {z-index: 11; width: 450px; margin: 0 auto; padding: 33px 0 58px; font-size: 16px; line-height: 40px; color: rgba(75, 75, 75, 0.8); text-align: center;}
+.all-tour button {width: 100%; height: 40px; border-bottom: 1px solid rgba(170, 170, 170, 0.8); background: url('./../images/txt/tour/tour-select.png') no-repeat right center; background-size: auto 100%; color: #404040;}
+
+.tour-list .contents-title {padding: 65px 0 60px; font-size: 55px; line-height: 51px; text-align: center;}
+.tour-list ul {margin-bottom: 27px;}
+.tour-list li {height: 134px; margin-top: 2px; text-transform: uppercase;}
+.tour-list li > .valign {width: 100%; max-width: 1440px; margin: 0 auto; border-bottom: 1px solid #d9d9d9;}
+.tour-list li:first-child > .valign {border-top: 1px solid #707070;}
+.tour-list li .tour-date {width: 34.65%; padding-left: 229px;}
+.tour-list li .tour-date p {display: inline-block; margin: auto; font-size: 15px; line-height: 29px; text-align: left; color: rgba(0, 0, 0, 0.9);}
+.tour-list li .tour-date p.pc-only{display: inline-block}
+.tour-list li .tour-date p.m-only{display: none}
+
+.contents-white .tour-list li .tour-date p {color: #fff;}
+.tour-list li .tour-date p .reg {display: block; font-family: 'Camber-R'; color: #a3a3a3;}
+.contents-white .tour-list li .tour-date p .reg {color: rgba(255, 255, 255, 0.5);}
+.tour-list li .tour-date p .hidden {position: static; width: auto; height: auto; margin: 0; clip: auto;}
+.tour-list li .tour-title {padding: 0 8px; font-size: 22px; line-height: 29px;}
+.tour-list li .tour-title .reg {font-family: 'Camber-R'; font-size: 18px; color: #737373;}
+.tour-list li .tour-title .special {display: inline-block; transform: translateY(-3px); margin-left: 4px; padding: 2px 20px 0; border-radius: 50vh; background: #363636; font-family: 'Camber-R'; font-size: 13px; line-height: 22px; color: #fff;}
+.tour-list li .btn-area {width: 323px; text-align: center;}
+.tour-list li .btn-area a {cursor: default; display: table; width: 105px; height: 105px; margin: auto 0; padding: 0 12px; border-radius: 50vh; background: rgba(166, 166, 166, 0.7); font-size: 19px; line-height: 17px; color: #fff; text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);}
+.tour-list li .btn-area a.abled {cursor: pointer; border: 2px solid #f0a8c8; background: transparent url('./../images/txt/tour/btn-arrow.png') no-repeat center; background-size: 100% auto; color: #f0a8c8; text-shadow: none;}
+.tour-list li .btn-area a.coming {border: 2px solid rgba(52, 52, 52, 0.5); background: transparent; color: #676767; text-shadow: none;}
+
+.has_tab .tab-drop {position: relative; width: 450px; margin: 57px auto 70px; z-index: 10;}
+.has_tab .tab-drop button.btn-present {height: 66px; border-bottom: 1px solid #bbb; background-size: auto 100%; font-size: 55px; color: #404040;}

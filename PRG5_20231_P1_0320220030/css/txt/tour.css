@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+/*Act lovesick*/
+.act_lovesick {background: #101820; color: #FFFFFF; font-family: 'Camber-SB', 'NotoSansCJKkr-M';}
+.act_lovesick .tab-drop button.btn-present {color: #FFFFFF; border-bottom: none;}
+.act_lovesick .tour-list li {background: #D8DFE1; border-bottom: 2px solid #101820;}
+.act_lovesick .tour-list li .btn-area a {background: #323E48; color: inherit;}
+.act_lovesick .tour-list li .btn-area a.on-sale {background-color: #EBD4E3; color: #101820; cursor: pointer; border-style: solid; border-color: #535c64; border-width: thin;}
+

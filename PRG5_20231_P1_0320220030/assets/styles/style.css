@@ -1,0 +1,68 @@
+/* CSS untuk styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5); /* Ubah warna latar belakang dan atur tingkat transparansi */
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    backdrop-filter: blur(10px); /* Menggunakan filter blur untuk efek kaca */
+}
+
+nav {
+    flex-grow: 1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white; /* Tambahkan warna teks yang sesuai */
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.login-button, .signup-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main {
+    /* Gaya untuk konten utama Anda di sini */
+}
+
+.footer {
+    /* Gaya untuk footer Anda di sini */
+}
+
+

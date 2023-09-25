@@ -1,0 +1,97 @@
+/* Global Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    font-size: 1em;
+    font-family: 'Camber-SB', 'NotoSansCJKkr-M';
+}
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 320px;
+    height: 63px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1001;
+}
+
+/* Main Content Styles */
+.wrapper {
+    overflow-x: hidden;
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.act_lovesick {
+    background: #101820;
+    color: #FFFFFF;
+    font-family: 'Camber-SB', 'NotoSansCJKkr-M';
+}
+
+/* Tour List Styles */
+.tour-list li {
+    background: #D8DFE1;
+    border-bottom: 2px solid #101820;
+    height: 134px;
+    margin-top: 2px;
+    text-transform: uppercase;
+}
+
+.tour-list li:first-child {
+    border-top: 1px solid #707070;
+}
+
+.tour-list li .tour-date {
+    width: 34.65%;
+    padding-left: 229px;
+}
+
+/* Add comments as needed to describe other sections of your code */
+
+/* Button Styles */
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    cursor: pointer;
+}
+
+/* Font Faces (Add more font faces as needed) */
+@font-face {
+    font-family: 'Camber-M';
+    font-weight: normal;
+    src: url('./../fonts/Camber_Family/EmtypeFoundry-CamberMediumRegular.eot') format('embedded-opentype'),
+         url('./../fonts/Camber_Family/EmtypeFoundry-CamberMediumRegular.woff') format('woff'),
+         url('./../fonts/Camber_Family/EmtypeFoundry-CamberMediumRegular.ttf') format('truetype');
+}
+
+/* Add more font-face rules for other fonts */
+
+/* Media Queries (if needed) */
+@media (max-width: 768px) {
+    /* Add responsive styles here */
+}

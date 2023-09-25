@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0; box-sizing: border-box; outline: none;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html, body {width: 100%; height: auto; min-height: 100%; font-size: 1em; font-family: 'Camber-SB', 'NotoSansCJKkr-M';}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, main, section, caption {display: block;}
+ul, ol {list-style-type: none;}
+blockquote, q {quotes: none;}
+a {text-decoration: none; color: inherit;}
+table {border-collapse: collapse; border-spacing: 0;}
+colgroup {display: table-column-group;}
+col {display: table-column;}
+em {font-style: italic;}
+
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    color: inherit;
+    font: inherit;
+
+    line-height: normal;
+
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    -webkit-appearance: none;
+	cursor:pointer;
+}
+
+
+
+
+@font-face {
+    font-family: 'Camber-M';
+	font-weight: normal;
+    src: url('./../fonts/Camber_Family/EmtypeFoundry-CamberMediumRegular.eot') format('embedded-opentype'), /* IE9 Compat Modes */
+         url('./../fonts/Camber_Family/EmtypeFoundry-CamberMediumRegular.woff') format('woff'), /* Modern Browsers */
+         url('./../fonts/Camber_Family/EmtypeFoundry-CamberMediumRegular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+
+@font-face {
+    font-family: 'MVB-SolanoGothicMVB-R';
+	font-weight: normal;
+    src: url('./../fonts/Solano_Gothic_MVB_Basic/MVB-SolanoGothicMVB-Rg.eot') format('embedded-opentype'), /* IE9 Compat Modes */
+         url('./../fonts/Solano_Gothic_MVB_Basic/MVB-SolanoGothicMVB-Rg.woff') format('woff'), /* Modern Browsers */
+         url('./../fonts/Solano_Gothic_MVB_Basic/MVB-SolanoGothicMVB-Rg.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+   font-family: 'NotoSansCJKcn-B';
+	font-weight: normal;
+	src: url('./../fonts/NotoSansMonoCJKjp/NotoSansMonoCJKjp-Bold.otf') format('opentype'), /* IE9 Compat Modes */
+		url('./../fonts/NotoSansMonoCJKjp/NotoSansMonoCJKjp-Bold.woff') format('woff'), /* Modern Browsers */
+		url('./../fonts/NotoSansMonoCJKjp/NotoSansMonoCJKjp-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+ }
